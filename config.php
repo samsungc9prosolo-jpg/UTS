@@ -4,6 +4,8 @@
 // Memulai session di sini agar tersedia di seluruh halaman.
 session_start();
 
+//mengedit koneksi database
+
 $DB_HOST = 'localhost';
 $DB_USER = 'root';
 $DB_PASS = ''; // isi jika MySQL root punya password
