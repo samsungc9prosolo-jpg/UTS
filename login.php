@@ -6,7 +6,7 @@ if (isset($_SESSION['user'])) {
     header("Location: index.php");
     exit;
 }
-
+// menambah fitur login akun
 $error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = trim($_POST['username'] ?? '');
